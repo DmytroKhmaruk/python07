@@ -31,11 +31,9 @@ if __name__ == "__main__":
 
     print("Testing factory")
     test_factory(flame_factory)
-    print("")
 
-    print("Testing factory")
+    print("\nTesting factory")
     test_factory(aqua_factory)
-    print("")
 
-    print("Testing battle")
+    print("\nTesting battle")
     test_battle(flame_factory, aqua_factory)
